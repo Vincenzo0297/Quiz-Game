@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Inconsolata:wght@300&family=Pixelify+Sans&family=Signika+Negative:wght@300&display=swap');
+
+body {
+    font-family: 'Gabarito', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient( rgba(160, 109, 109, 0.5), rgba(104, 69, 69, 0.5) ), url('../images/wallpaper3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    text-align: center;
+}
+
+.quiz-score {
+    border-radius: 10px;
+    background-color: #a07d7d16;
+    box-shadow: 0 0 10px rgba(151, 66, 66, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: #d04469;
+    color: #4f1e19d7;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #9f4baea9;
+}
+
